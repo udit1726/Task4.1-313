@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+h1{
+  margin-left: 10px;
+  color: rgb(245, 245, 244);
+}
+/* newpost's background */
+.App-header {
+  background-color: #3f3228; 
+  border: 3px solid black;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  margin: 0px;
+}
+.post-type-label{
+  text-align: left;
+  margin-left: 15px;
+  color: maroon;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+/* buttons overall */
+.post-type-buttons {
+  display: flex;
+  justify-content:left;
+  margin: 20px;
+}
+/* Inner styling */
+.post-type-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #f1a07d;
+  cursor: pointer;
+
+}
+/* buttons when clicked */
+.post-type-buttons button.active {
+  background-color: #f5672e;
+  color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
